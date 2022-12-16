@@ -10,10 +10,6 @@ def sol():
     print(estInicial)
     estAceptacion = [0, 0, 0, 0]
     while estInicial  != estAceptacion :
-        """if (C == 1) and (L != V) and (V != P):
-            C = 0
-            estInicial = [C, L, V, P]
-            print(estInicial)"""
         #devuelve al campesino
         if (C == 0 and L != V and V != P):
             C = 1
